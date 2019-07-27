@@ -1,0 +1,5 @@
+target ‘KNUEclass’ do
+	pod 'AFNetwork'
+	pod 'TBXML'
+	pod 'KeychainItemWrapper'
+end   

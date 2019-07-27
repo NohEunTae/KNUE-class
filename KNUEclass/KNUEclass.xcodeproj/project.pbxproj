@@ -1,0 +1,1508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4342A395203F972400080313 /* KNNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4342A394203F972400080313 /* KNNoDataView.m */; };
+		436A94EE203E3FF300308AD0 /* KNFileBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 436A94ED203E3FF300308AD0 /* KNFileBoxModel.m */; };
+		436A94F1203E3FFC00308AD0 /* KNFileBoxTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 436A94F0203E3FFC00308AD0 /* KNFileBoxTableView.m */; };
+		436A94F4203E400700308AD0 /* KNFileBoxTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 436A94F3203E400700308AD0 /* KNFileBoxTableViewAdapter.m */; };
+		436A94F7203E400E00308AD0 /* KNFileBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436A94F6203E400E00308AD0 /* KNFileBoxViewController.m */; };
+		437392AF2036D4F50037ED71 /* KNUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392AE2036D4F50037ED71 /* KNUserModel.m */; };
+		437392B22036D4FF0037ED71 /* KNLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392B12036D4FF0037ED71 /* KNLoginManager.m */; };
+		437392B52036D5080037ED71 /* KNLoginCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392B32036D5080037ED71 /* KNLoginCustomView.m */; };
+		437392B82036D5100037ED71 /* KNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392B72036D5100037ED71 /* KNLoginViewController.m */; };
+		437392BD2036D5E50037ED71 /* KNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392BC2036D5E50037ED71 /* KNTabBarController.m */; };
+		437392C42036D5F80037ED71 /* KNParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392C12036D5F80037ED71 /* KNParentViewController.m */; };
+		437392C52036D5F80037ED71 /* KNParentTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392C22036D5F80037ED71 /* KNParentTabBarController.m */; };
+		437392C62036D5F80037ED71 /* KNParentNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437392C32036D5F80037ED71 /* KNParentNaviController.m */; };
+		4373931F2038397C0037ED71 /* KNFileStoreAndViewerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373931D2038397B0037ED71 /* KNFileStoreAndViewerModel.m */; };
+		4373932F20394F690037ED71 /* KNFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373932E20394F690037ED71 /* KNFileListViewController.m */; };
+		4373933220394FA00037ED71 /* KNFileListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373933120394FA00037ED71 /* KNFileListTableView.m */; };
+		4373933620394FB90037ED71 /* KNFileListTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373933520394FB90037ED71 /* KNFileListTableViewAdapter.m */; };
+		4373933B203953550037ED71 /* KNFileListParamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373933A203953550037ED71 /* KNFileListParamModel.m */; };
+		4373933E203959260037ED71 /* KNFileListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373933D203959260037ED71 /* KNFileListModel.m */; };
+		741653282036C6BE0058038D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741653272036C6BE0058038D /* AppDelegate.m */; };
+		741653302036C6BE0058038D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7416532F2036C6BE0058038D /* Assets.xcassets */; };
+		741653332036C6BE0058038D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741653312036C6BE0058038D /* LaunchScreen.storyboard */; };
+		741653362036C6BE0058038D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741653352036C6BE0058038D /* main.m */; };
+		9DB3AD9F595F2988445A4A08 /* libPods-KNUEclass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B891265D14A1AF5E5810913C /* libPods-KNUEclass.a */; };
+		CEDF854B2036CA14006769A9 /* KNNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF854A2036CA14006769A9 /* KNNetworkModel.m */; };
+		CEDF855D2036F230006769A9 /* KNRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF855C2036F230006769A9 /* KNRecentViewController.m */; };
+		CEDF85602036F26A006769A9 /* KNRecentNaviContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF855F2036F26A006769A9 /* KNRecentNaviContorller.m */; };
+		CEDF85632036F2C2006769A9 /* KNRecentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85622036F2C2006769A9 /* KNRecentTableView.m */; };
+		CEDF85662036F2DC006769A9 /* KNRecentTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85652036F2DC006769A9 /* KNRecentTableViewAdapter.m */; };
+		CEDF856A2036F389006769A9 /* KNPublicCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85692036F389006769A9 /* KNPublicCustomTableViewCell.m */; };
+		CEDF857E2036FE5F006769A9 /* KNHomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF857D2036FE5F006769A9 /* KNHomeManager.m */; };
+		CEDF8586203708B9006769A9 /* KNNoticeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8585203708B9006769A9 /* KNNoticeModel.m */; };
+		CEDF858B20370A5A006769A9 /* KNXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF858A20370A5A006769A9 /* KNXmlParser.m */; };
+		CEDF858E2037217E006769A9 /* KNNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF858D2037217E006769A9 /* KNNoteModel.m */; };
+		CEDF859320372B09006769A9 /* KNHomeworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF859220372B09006769A9 /* KNHomeworkModel.m */; };
+		CEDF859620372F44006769A9 /* KNParentHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF859520372F44006769A9 /* KNParentHomeModel.m */; };
+		CEDF85AD2037508C006769A9 /* KNIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85AB2037508C006769A9 /* KNIndicator.m */; };
+		CEDF85B9203756D9006769A9 /* KNNoticeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85B8203756D9006769A9 /* KNNoticeDetailModel.m */; };
+		CEDF85C020375B85006769A9 /* KNNoticeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85BF20375B85006769A9 /* KNNoticeDetailViewController.m */; };
+		CEDF85C720375D59006769A9 /* KNDetailCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85C620375D59006769A9 /* KNDetailCustomView.m */; };
+		CEDF85CD20381597006769A9 /* KNLectureListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85CB20381597006769A9 /* KNLectureListModel.m */; };
+		CEDF85D0203815AD006769A9 /* KNLectureListTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85CF203815AD006769A9 /* KNLectureListTableViewAdapter.m */; };
+		CEDF85D3203815BF006769A9 /* KNLectureListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85D2203815BF006769A9 /* KNLectureListTableView.m */; };
+		CEDF85D8203815D4006769A9 /* KNLectureListNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85D5203815D4006769A9 /* KNLectureListNaviController.m */; };
+		CEDF85D9203815D4006769A9 /* KNLectureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85D7203815D4006769A9 /* KNLectureListViewController.m */; };
+		CEDF85E02038160B006769A9 /* KNALectureTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85DE2038160A006769A9 /* KNALectureTableViewAdapter.m */; };
+		CEDF85E320381618006769A9 /* KNALectureTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85E120381618006769A9 /* KNALectureTableView.m */; };
+		CEDF85EC2038166B006769A9 /* KNALectureNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85EA2038166B006769A9 /* KNALectureNoticeViewController.m */; };
+		CEDF85F120381678006769A9 /* KNALectureHomeworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85EE20381678006769A9 /* KNALectureHomeworkViewController.m */; };
+		CEDF85F720381682006769A9 /* KNALectureNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF85F420381681006769A9 /* KNALectureNoteViewController.m */; };
+		CEDF86022038232D006769A9 /* KNNoteDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF86012038232D006769A9 /* KNNoteDetailModel.m */; };
+		CEDF860520382462006769A9 /* KNNoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF860420382462006769A9 /* KNNoteDetailViewController.m */; };
+		CEDF860E20383057006769A9 /* KNHomeworkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF860D20383057006769A9 /* KNHomeworkDetailViewController.m */; };
+		CEDF86492039FC04006769A9 /* KNLoginInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF86482039FC04006769A9 /* KNLoginInfoView.m */; };
+		CEDF864C2039FC18006769A9 /* KNLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF864B2039FC18006769A9 /* KNLogoView.m */; };
+		CEDF864E2039FD99006769A9 /* Bevan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEDF864D2039FD77006769A9 /* Bevan.ttf */; };
+		CEDF8658203DBC6A006769A9 /* KNImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8657203DBC6A006769A9 /* KNImageManager.m */; };
+		CEDF865F203DBF83006769A9 /* KNNoticeDetailNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF865E203DBF83006769A9 /* KNNoticeDetailNaviController.m */; };
+		CEDF8662203DBFA2006769A9 /* KNNoteDetailNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8661203DBFA2006769A9 /* KNNoteDetailNaviController.m */; };
+		CEDF8665203DBFB6006769A9 /* KNHomeworkDetailNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8664203DBFB6006769A9 /* KNHomeworkDetailNaviController.m */; };
+		CEDF8668203DC09C006769A9 /* KNALectureNoticeNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8667203DC09C006769A9 /* KNALectureNoticeNaviController.m */; };
+		CEDF866B203DC0AD006769A9 /* KNALectureNoteNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF866A203DC0AD006769A9 /* KNALectureNoteNaviController.m */; };
+		CEDF866E203DC0BE006769A9 /* KNALectureHomeworkNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF866D203DC0BE006769A9 /* KNALectureHomeworkNaviController.m */; };
+		CEDF8673203DCC8F006769A9 /* KNALectureTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8672203DCC8F006769A9 /* KNALectureTabBarController.m */; };
+		CEDF867A203EC755006769A9 /* KNSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF8679203EC755006769A9 /* KNSettingViewController.m */; };
+		CEDF867D203EC793006769A9 /* KNSettingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF867C203EC793006769A9 /* KNSettingTableView.m */; };
+		CEDF8680203EC7B5006769A9 /* KNSettingTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF867F203EC7B5006769A9 /* KNSettingTableViewAdapter.m */; };
+		CEDF8690203EF0A1006769A9 /* KNKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF868F203EF0A1006769A9 /* KNKeychainManager.m */; };
+		CEDF86912043E0A7006769A9 /* NanumSquareBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43364E472042B0BA00A20E4F /* NanumSquareBold.ttf */; };
+		CEDF86922043E0A7006769A9 /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43364E462042AF0100A20E4F /* NanumSquareRegular.ttf */; };
+		CEDF86932043E0A7006769A9 /* NanumBarunGothicOTF-YetHangul.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43364E452042AEE000A20E4F /* NanumBarunGothicOTF-YetHangul.otf */; };
+		CEDF86982045344A006769A9 /* KNSettingLogoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF86972045344A006769A9 /* KNSettingLogoutManager.m */; };
+		CEDF86AD20510D35006769A9 /* KNALectureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF86AC20510D34006769A9 /* KNALectureModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43364E452042AEE000A20E4F /* NanumBarunGothicOTF-YetHangul.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumBarunGothicOTF-YetHangul.otf"; sourceTree = "<group>"; };
+		43364E462042AF0100A20E4F /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		43364E472042B0BA00A20E4F /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
+		4342A393203F972400080313 /* KNNoDataView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoDataView.h; sourceTree = "<group>"; };
+		4342A394203F972400080313 /* KNNoDataView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoDataView.m; sourceTree = "<group>"; };
+		436A94EC203E3FF300308AD0 /* KNFileBoxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileBoxModel.h; sourceTree = "<group>"; };
+		436A94ED203E3FF300308AD0 /* KNFileBoxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileBoxModel.m; sourceTree = "<group>"; };
+		436A94EF203E3FFC00308AD0 /* KNFileBoxTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileBoxTableView.h; sourceTree = "<group>"; };
+		436A94F0203E3FFC00308AD0 /* KNFileBoxTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileBoxTableView.m; sourceTree = "<group>"; };
+		436A94F2203E400700308AD0 /* KNFileBoxTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileBoxTableViewAdapter.h; sourceTree = "<group>"; };
+		436A94F3203E400700308AD0 /* KNFileBoxTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileBoxTableViewAdapter.m; sourceTree = "<group>"; };
+		436A94F5203E400E00308AD0 /* KNFileBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileBoxViewController.h; sourceTree = "<group>"; };
+		436A94F6203E400E00308AD0 /* KNFileBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileBoxViewController.m; sourceTree = "<group>"; };
+		437392AD2036D4F50037ED71 /* KNUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNUserModel.h; path = KNUEclass/Login/Model/DataModel/KNUserModel.h; sourceTree = SOURCE_ROOT; };
+		437392AE2036D4F50037ED71 /* KNUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNUserModel.m; path = KNUEclass/Login/Model/DataModel/KNUserModel.m; sourceTree = SOURCE_ROOT; };
+		437392B02036D4FF0037ED71 /* KNLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNLoginManager.h; path = KNUEclass/Login/Model/TaskModel/KNLoginManager.h; sourceTree = SOURCE_ROOT; };
+		437392B12036D4FF0037ED71 /* KNLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNLoginManager.m; path = KNUEclass/Login/Model/TaskModel/KNLoginManager.m; sourceTree = SOURCE_ROOT; };
+		437392B32036D5080037ED71 /* KNLoginCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNLoginCustomView.m; path = KNUEclass/Login/View/KNLoginCustomView.m; sourceTree = SOURCE_ROOT; };
+		437392B42036D5080037ED71 /* KNLoginCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNLoginCustomView.h; path = KNUEclass/Login/View/KNLoginCustomView.h; sourceTree = SOURCE_ROOT; };
+		437392B62036D5100037ED71 /* KNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNLoginViewController.h; path = KNUEclass/Login/ViewController/KNLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		437392B72036D5100037ED71 /* KNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNLoginViewController.m; path = KNUEclass/Login/ViewController/KNLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		437392BB2036D5E40037ED71 /* KNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTabBarController.h; sourceTree = "<group>"; };
+		437392BC2036D5E50037ED71 /* KNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTabBarController.m; sourceTree = "<group>"; };
+		437392BE2036D5F80037ED71 /* KNParentNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNParentNaviController.h; sourceTree = "<group>"; };
+		437392BF2036D5F80037ED71 /* KNParentTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNParentTabBarController.h; sourceTree = "<group>"; };
+		437392C02036D5F80037ED71 /* KNParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNParentViewController.h; sourceTree = "<group>"; };
+		437392C12036D5F80037ED71 /* KNParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNParentViewController.m; sourceTree = "<group>"; };
+		437392C22036D5F80037ED71 /* KNParentTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNParentTabBarController.m; sourceTree = "<group>"; };
+		437392C32036D5F80037ED71 /* KNParentNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNParentNaviController.m; sourceTree = "<group>"; };
+		4373931D2038397B0037ED71 /* KNFileStoreAndViewerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFileStoreAndViewerModel.m; sourceTree = "<group>"; };
+		4373931E2038397C0037ED71 /* KNFileStoreAndViewerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFileStoreAndViewerModel.h; sourceTree = "<group>"; };
+		4373932D20394F690037ED71 /* KNFileListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFileListViewController.h; sourceTree = "<group>"; };
+		4373932E20394F690037ED71 /* KNFileListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNFileListViewController.m; sourceTree = "<group>"; };
+		4373933020394FA00037ED71 /* KNFileListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFileListTableView.h; sourceTree = "<group>"; };
+		4373933120394FA00037ED71 /* KNFileListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNFileListTableView.m; sourceTree = "<group>"; };
+		4373933420394FB90037ED71 /* KNFileListTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFileListTableViewAdapter.h; sourceTree = "<group>"; };
+		4373933520394FB90037ED71 /* KNFileListTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNFileListTableViewAdapter.m; sourceTree = "<group>"; };
+		43739339203953550037ED71 /* KNFileListParamModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFileListParamModel.h; sourceTree = "<group>"; };
+		4373933A203953550037ED71 /* KNFileListParamModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNFileListParamModel.m; sourceTree = "<group>"; };
+		4373933C203959260037ED71 /* KNFileListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNFileListModel.h; sourceTree = "<group>"; };
+		4373933D203959260037ED71 /* KNFileListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNFileListModel.m; sourceTree = "<group>"; };
+		5FEC50143CCFF33AD2B72088 /* Pods-KNUEclass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNUEclass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KNUEclass/Pods-KNUEclass.debug.xcconfig"; sourceTree = "<group>"; };
+		6AAEDBE9C9E46AE96B177D4F /* Pods-KNUEclass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KNUEclass.release.xcconfig"; path = "Pods/Target Support Files/Pods-KNUEclass/Pods-KNUEclass.release.xcconfig"; sourceTree = "<group>"; };
+		741653232036C6BE0058038D /* KNUEclass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNUEclass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741653262036C6BE0058038D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741653272036C6BE0058038D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7416532F2036C6BE0058038D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741653322036C6BE0058038D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741653342036C6BE0058038D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741653352036C6BE0058038D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B891265D14A1AF5E5810913C /* libPods-KNUEclass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KNUEclass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF85492036CA14006769A9 /* KNNetworkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNetworkModel.h; sourceTree = "<group>"; };
+		CEDF854A2036CA14006769A9 /* KNNetworkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNetworkModel.m; sourceTree = "<group>"; };
+		CEDF855B2036F230006769A9 /* KNRecentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNRecentViewController.h; sourceTree = "<group>"; };
+		CEDF855C2036F230006769A9 /* KNRecentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNRecentViewController.m; sourceTree = "<group>"; };
+		CEDF855E2036F26A006769A9 /* KNRecentNaviContorller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNRecentNaviContorller.h; sourceTree = "<group>"; };
+		CEDF855F2036F26A006769A9 /* KNRecentNaviContorller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNRecentNaviContorller.m; sourceTree = "<group>"; };
+		CEDF85612036F2C2006769A9 /* KNRecentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNRecentTableView.h; sourceTree = "<group>"; };
+		CEDF85622036F2C2006769A9 /* KNRecentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNRecentTableView.m; sourceTree = "<group>"; };
+		CEDF85642036F2DC006769A9 /* KNRecentTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNRecentTableViewAdapter.h; sourceTree = "<group>"; };
+		CEDF85652036F2DC006769A9 /* KNRecentTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNRecentTableViewAdapter.m; sourceTree = "<group>"; };
+		CEDF85682036F389006769A9 /* KNPublicCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNPublicCustomTableViewCell.h; sourceTree = "<group>"; };
+		CEDF85692036F389006769A9 /* KNPublicCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNPublicCustomTableViewCell.m; sourceTree = "<group>"; };
+		CEDF857C2036FE5F006769A9 /* KNHomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNHomeManager.h; sourceTree = "<group>"; };
+		CEDF857D2036FE5F006769A9 /* KNHomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNHomeManager.m; sourceTree = "<group>"; };
+		CEDF8584203708B9006769A9 /* KNNoticeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoticeModel.h; sourceTree = "<group>"; };
+		CEDF8585203708B9006769A9 /* KNNoticeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoticeModel.m; sourceTree = "<group>"; };
+		CEDF858920370A5A006769A9 /* KNXmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNXmlParser.h; sourceTree = "<group>"; };
+		CEDF858A20370A5A006769A9 /* KNXmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNXmlParser.m; sourceTree = "<group>"; };
+		CEDF858C2037217E006769A9 /* KNNoteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoteModel.h; sourceTree = "<group>"; };
+		CEDF858D2037217E006769A9 /* KNNoteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoteModel.m; sourceTree = "<group>"; };
+		CEDF859120372B09006769A9 /* KNHomeworkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNHomeworkModel.h; sourceTree = "<group>"; };
+		CEDF859220372B09006769A9 /* KNHomeworkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNHomeworkModel.m; sourceTree = "<group>"; };
+		CEDF859420372F44006769A9 /* KNParentHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNParentHomeModel.h; sourceTree = "<group>"; };
+		CEDF859520372F44006769A9 /* KNParentHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNParentHomeModel.m; sourceTree = "<group>"; };
+		CEDF85AB2037508C006769A9 /* KNIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNIndicator.m; sourceTree = "<group>"; };
+		CEDF85AC2037508C006769A9 /* KNIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNIndicator.h; sourceTree = "<group>"; };
+		CEDF85B7203756D9006769A9 /* KNNoticeDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoticeDetailModel.h; sourceTree = "<group>"; };
+		CEDF85B8203756D9006769A9 /* KNNoticeDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoticeDetailModel.m; sourceTree = "<group>"; };
+		CEDF85BE20375B85006769A9 /* KNNoticeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoticeDetailViewController.h; sourceTree = "<group>"; };
+		CEDF85BF20375B85006769A9 /* KNNoticeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoticeDetailViewController.m; sourceTree = "<group>"; };
+		CEDF85C520375D59006769A9 /* KNDetailCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNDetailCustomView.h; sourceTree = "<group>"; };
+		CEDF85C620375D59006769A9 /* KNDetailCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNDetailCustomView.m; sourceTree = "<group>"; };
+		CEDF85CB20381597006769A9 /* KNLectureListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLectureListModel.m; sourceTree = "<group>"; };
+		CEDF85CC20381597006769A9 /* KNLectureListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNLectureListModel.h; sourceTree = "<group>"; };
+		CEDF85CE203815AD006769A9 /* KNLectureListTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNLectureListTableViewAdapter.h; sourceTree = "<group>"; };
+		CEDF85CF203815AD006769A9 /* KNLectureListTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLectureListTableViewAdapter.m; sourceTree = "<group>"; };
+		CEDF85D1203815BF006769A9 /* KNLectureListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNLectureListTableView.h; sourceTree = "<group>"; };
+		CEDF85D2203815BF006769A9 /* KNLectureListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLectureListTableView.m; sourceTree = "<group>"; };
+		CEDF85D4203815D4006769A9 /* KNLectureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNLectureListViewController.h; sourceTree = "<group>"; };
+		CEDF85D5203815D4006769A9 /* KNLectureListNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLectureListNaviController.m; sourceTree = "<group>"; };
+		CEDF85D6203815D4006769A9 /* KNLectureListNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNLectureListNaviController.h; sourceTree = "<group>"; };
+		CEDF85D7203815D4006769A9 /* KNLectureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNLectureListViewController.m; sourceTree = "<group>"; };
+		CEDF85DE2038160A006769A9 /* KNALectureTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNALectureTableViewAdapter.m; sourceTree = "<group>"; };
+		CEDF85DF2038160A006769A9 /* KNALectureTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNALectureTableViewAdapter.h; sourceTree = "<group>"; };
+		CEDF85E120381618006769A9 /* KNALectureTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNALectureTableView.m; sourceTree = "<group>"; };
+		CEDF85E220381618006769A9 /* KNALectureTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNALectureTableView.h; sourceTree = "<group>"; };
+		CEDF85E82038166B006769A9 /* KNALectureNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNALectureNoticeViewController.h; sourceTree = "<group>"; };
+		CEDF85EA2038166B006769A9 /* KNALectureNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNALectureNoticeViewController.m; sourceTree = "<group>"; };
+		CEDF85ED20381678006769A9 /* KNALectureHomeworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNALectureHomeworkViewController.h; sourceTree = "<group>"; };
+		CEDF85EE20381678006769A9 /* KNALectureHomeworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNALectureHomeworkViewController.m; sourceTree = "<group>"; };
+		CEDF85F320381681006769A9 /* KNALectureNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNALectureNoteViewController.h; sourceTree = "<group>"; };
+		CEDF85F420381681006769A9 /* KNALectureNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNALectureNoteViewController.m; sourceTree = "<group>"; };
+		CEDF86002038232D006769A9 /* KNNoteDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoteDetailModel.h; sourceTree = "<group>"; };
+		CEDF86012038232D006769A9 /* KNNoteDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoteDetailModel.m; sourceTree = "<group>"; };
+		CEDF860320382462006769A9 /* KNNoteDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoteDetailViewController.h; sourceTree = "<group>"; };
+		CEDF860420382462006769A9 /* KNNoteDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoteDetailViewController.m; sourceTree = "<group>"; };
+		CEDF860C20383057006769A9 /* KNHomeworkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNHomeworkDetailViewController.h; sourceTree = "<group>"; };
+		CEDF860D20383057006769A9 /* KNHomeworkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNHomeworkDetailViewController.m; sourceTree = "<group>"; };
+		CEDF86472039FC04006769A9 /* KNLoginInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNLoginInfoView.h; path = View/InfoView/KNLoginInfoView.h; sourceTree = SOURCE_ROOT; };
+		CEDF86482039FC04006769A9 /* KNLoginInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNLoginInfoView.m; path = View/InfoView/KNLoginInfoView.m; sourceTree = SOURCE_ROOT; };
+		CEDF864A2039FC18006769A9 /* KNLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNLogoView.h; path = View/LogoView/KNLogoView.h; sourceTree = SOURCE_ROOT; };
+		CEDF864B2039FC18006769A9 /* KNLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KNLogoView.m; path = View/LogoView/KNLogoView.m; sourceTree = SOURCE_ROOT; };
+		CEDF864D2039FD77006769A9 /* Bevan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bevan.ttf; sourceTree = "<group>"; };
+		CEDF8656203DBC6A006769A9 /* KNImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNImageManager.h; sourceTree = "<group>"; };
+		CEDF8657203DBC6A006769A9 /* KNImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNImageManager.m; sourceTree = "<group>"; };
+		CEDF865D203DBF83006769A9 /* KNNoticeDetailNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoticeDetailNaviController.h; sourceTree = "<group>"; };
+		CEDF865E203DBF83006769A9 /* KNNoticeDetailNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoticeDetailNaviController.m; sourceTree = "<group>"; };
+		CEDF8660203DBFA2006769A9 /* KNNoteDetailNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNoteDetailNaviController.h; sourceTree = "<group>"; };
+		CEDF8661203DBFA2006769A9 /* KNNoteDetailNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNoteDetailNaviController.m; sourceTree = "<group>"; };
+		CEDF8663203DBFB6006769A9 /* KNHomeworkDetailNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNHomeworkDetailNaviController.h; sourceTree = "<group>"; };
+		CEDF8664203DBFB6006769A9 /* KNHomeworkDetailNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNHomeworkDetailNaviController.m; sourceTree = "<group>"; };
+		CEDF8666203DC09C006769A9 /* KNALectureNoticeNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNALectureNoticeNaviController.h; sourceTree = "<group>"; };
+		CEDF8667203DC09C006769A9 /* KNALectureNoticeNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNALectureNoticeNaviController.m; sourceTree = "<group>"; };
+		CEDF8669203DC0AD006769A9 /* KNALectureNoteNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNALectureNoteNaviController.h; sourceTree = "<group>"; };
+		CEDF866A203DC0AD006769A9 /* KNALectureNoteNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNALectureNoteNaviController.m; sourceTree = "<group>"; };
+		CEDF866C203DC0BE006769A9 /* KNALectureHomeworkNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNALectureHomeworkNaviController.h; sourceTree = "<group>"; };
+		CEDF866D203DC0BE006769A9 /* KNALectureHomeworkNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNALectureHomeworkNaviController.m; sourceTree = "<group>"; };
+		CEDF8671203DCC8F006769A9 /* KNALectureTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNALectureTabBarController.h; sourceTree = "<group>"; };
+		CEDF8672203DCC8F006769A9 /* KNALectureTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNALectureTabBarController.m; sourceTree = "<group>"; };
+		CEDF8678203EC755006769A9 /* KNSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSettingViewController.h; sourceTree = "<group>"; };
+		CEDF8679203EC755006769A9 /* KNSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSettingViewController.m; sourceTree = "<group>"; };
+		CEDF867B203EC793006769A9 /* KNSettingTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSettingTableView.h; sourceTree = "<group>"; };
+		CEDF867C203EC793006769A9 /* KNSettingTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSettingTableView.m; sourceTree = "<group>"; };
+		CEDF867E203EC7B5006769A9 /* KNSettingTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSettingTableViewAdapter.h; sourceTree = "<group>"; };
+		CEDF867F203EC7B5006769A9 /* KNSettingTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSettingTableViewAdapter.m; sourceTree = "<group>"; };
+		CEDF868E203EF0A1006769A9 /* KNKeychainManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNKeychainManager.h; sourceTree = "<group>"; };
+		CEDF868F203EF0A1006769A9 /* KNKeychainManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNKeychainManager.m; sourceTree = "<group>"; };
+		CEDF86962045344A006769A9 /* KNSettingLogoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSettingLogoutManager.h; sourceTree = "<group>"; };
+		CEDF86972045344A006769A9 /* KNSettingLogoutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSettingLogoutManager.m; sourceTree = "<group>"; };
+		CEDF86AB20510D34006769A9 /* KNALectureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNALectureModel.h; sourceTree = "<group>"; };
+		CEDF86AC20510D34006769A9 /* KNALectureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNALectureModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741653202036C6BE0058038D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB3AD9F595F2988445A4A08 /* libPods-KNUEclass.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4342A392203F970300080313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4342A393203F972400080313 /* KNNoDataView.h */,
+				4342A394203F972400080313 /* KNNoDataView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		436A94E6203E3F9000308AD0 /* FileBox */ = {
+			isa = PBXGroup;
+			children = (
+				436A94E7203E3F9A00308AD0 /* Model */,
+				436A94E8203E3FA400308AD0 /* Adapter */,
+				436A94E9203E3FAB00308AD0 /* View */,
+				436A94EA203E3FAE00308AD0 /* ViewController */,
+			);
+			path = FileBox;
+			sourceTree = "<group>";
+		};
+		436A94E7203E3F9A00308AD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				436A94EB203E3FC400308AD0 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		436A94E8203E3FA400308AD0 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				436A94F2203E400700308AD0 /* KNFileBoxTableViewAdapter.h */,
+				436A94F3203E400700308AD0 /* KNFileBoxTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		436A94E9203E3FAB00308AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				436A94EF203E3FFC00308AD0 /* KNFileBoxTableView.h */,
+				436A94F0203E3FFC00308AD0 /* KNFileBoxTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		436A94EA203E3FAE00308AD0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				436A94F5203E400E00308AD0 /* KNFileBoxViewController.h */,
+				436A94F6203E400E00308AD0 /* KNFileBoxViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		436A94EB203E3FC400308AD0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				436A94EC203E3FF300308AD0 /* KNFileBoxModel.h */,
+				436A94ED203E3FF300308AD0 /* KNFileBoxModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		437392A72036D4B10037ED71 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				437392A82036D4C70037ED71 /* Model */,
+				437392A92036D4CC0037ED71 /* View */,
+				437392AA2036D4D20037ED71 /* ViewController */,
+			);
+			name = Login;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		437392A82036D4C70037ED71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				437392AC2036D4E10037ED71 /* TaskModel */,
+				437392AB2036D4DC0037ED71 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		437392A92036D4CC0037ED71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86372039F6C8006769A9 /* InfoView */,
+				CEDF86362039F6C2006769A9 /* LogoView */,
+				437392B42036D5080037ED71 /* KNLoginCustomView.h */,
+				437392B32036D5080037ED71 /* KNLoginCustomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		437392AA2036D4D20037ED71 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				437392B62036D5100037ED71 /* KNLoginViewController.h */,
+				437392B72036D5100037ED71 /* KNLoginViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		437392AB2036D4DC0037ED71 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				437392AD2036D4F50037ED71 /* KNUserModel.h */,
+				437392AE2036D4F50037ED71 /* KNUserModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		437392AC2036D4E10037ED71 /* TaskModel */ = {
+			isa = PBXGroup;
+			children = (
+				437392B02036D4FF0037ED71 /* KNLoginManager.h */,
+				437392B12036D4FF0037ED71 /* KNLoginManager.m */,
+			);
+			path = TaskModel;
+			sourceTree = "<group>";
+		};
+		437392B92036D5AE0037ED71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				437392BA2036D5B90037ED71 /* Parent */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		437392BA2036D5B90037ED71 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				437392BE2036D5F80037ED71 /* KNParentNaviController.h */,
+				437392C32036D5F80037ED71 /* KNParentNaviController.m */,
+				437392BF2036D5F80037ED71 /* KNParentTabBarController.h */,
+				437392C22036D5F80037ED71 /* KNParentTabBarController.m */,
+				437392C02036D5F80037ED71 /* KNParentViewController.h */,
+				437392C12036D5F80037ED71 /* KNParentViewController.m */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		4373931C203839610037ED71 /* FileStoreAndViewer */ = {
+			isa = PBXGroup;
+			children = (
+				4373931E2038397C0037ED71 /* KNFileStoreAndViewerModel.h */,
+				4373931D2038397B0037ED71 /* KNFileStoreAndViewerModel.m */,
+			);
+			path = FileStoreAndViewer;
+			sourceTree = "<group>";
+		};
+		4373932020394A910037ED71 /* FileList */ = {
+			isa = PBXGroup;
+			children = (
+				43739337203953310037ED71 /* Model */,
+				4373932120394CAA0037ED71 /* Adapter */,
+				4373932520394CBF0037ED71 /* View */,
+				4373932920394CD00037ED71 /* ViewController */,
+			);
+			path = FileList;
+			sourceTree = "<group>";
+		};
+		4373932120394CAA0037ED71 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				4373933420394FB90037ED71 /* KNFileListTableViewAdapter.h */,
+				4373933520394FB90037ED71 /* KNFileListTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		4373932520394CBF0037ED71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4373933020394FA00037ED71 /* KNFileListTableView.h */,
+				4373933120394FA00037ED71 /* KNFileListTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4373932920394CD00037ED71 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4373932D20394F690037ED71 /* KNFileListViewController.h */,
+				4373932E20394F690037ED71 /* KNFileListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		43739337203953310037ED71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43739338203953370037ED71 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43739338203953370037ED71 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				43739339203953550037ED71 /* KNFileListParamModel.h */,
+				4373933A203953550037ED71 /* KNFileListParamModel.m */,
+				4373933C203959260037ED71 /* KNFileListModel.h */,
+				4373933D203959260037ED71 /* KNFileListModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		53445BD7FC03BA9052A186F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B891265D14A1AF5E5810913C /* libPods-KNUEclass.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7416531A2036C6BE0058038D = {
+			isa = PBXGroup;
+			children = (
+				741653252036C6BE0058038D /* KNUEclass */,
+				741653242036C6BE0058038D /* Products */,
+				CF4CBE6E8857EA4D8399B7B4 /* Pods */,
+				53445BD7FC03BA9052A186F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		741653242036C6BE0058038D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741653232036C6BE0058038D /* KNUEclass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741653252036C6BE0058038D /* KNUEclass */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85452036C924006769A9 /* Global */,
+				437392A72036D4B10037ED71 /* Login */,
+				CEDF85522036F167006769A9 /* Home */,
+				CEDF853E2036C8B1006769A9 /* Resource */,
+				CEDF853D2036C8A0006769A9 /* Support */,
+				CEDF853A2036C882006769A9 /* Launch */,
+			);
+			path = KNUEclass;
+			sourceTree = "<group>";
+		};
+		CEDF853A2036C882006769A9 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF853B2036C88C006769A9 /* View */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		CEDF853B2036C88C006769A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF853C2036C892006769A9 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF853C2036C892006769A9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				741653312036C6BE0058038D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CEDF853D2036C8A0006769A9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				741653262036C6BE0058038D /* AppDelegate.h */,
+				741653272036C6BE0058038D /* AppDelegate.m */,
+				741653342036C6BE0058038D /* Info.plist */,
+				741653352036C6BE0058038D /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CEDF853E2036C8B1006769A9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				43364E472042B0BA00A20E4F /* NanumSquareBold.ttf */,
+				43364E462042AF0100A20E4F /* NanumSquareRegular.ttf */,
+				43364E452042AEE000A20E4F /* NanumBarunGothicOTF-YetHangul.otf */,
+				CEDF864D2039FD77006769A9 /* Bevan.ttf */,
+				7416532F2036C6BE0058038D /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CEDF85452036C924006769A9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				437392B92036D5AE0037ED71 /* Controller */,
+				CEDF85462036C931006769A9 /* Model */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		CEDF85462036C931006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85472036C939006769A9 /* TaskModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF85472036C939006769A9 /* TaskModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF868D203EF082006769A9 /* Keychain */,
+				CEDF8655203DBBC4006769A9 /* ResizeImage */,
+				4373931C203839610037ED71 /* FileStoreAndViewer */,
+				CEDF85AA20375061006769A9 /* Indicator */,
+				CEDF858820370954006769A9 /* XmlParser */,
+				CEDF85482036C93E006769A9 /* NetworkModel */,
+			);
+			path = TaskModel;
+			sourceTree = "<group>";
+		};
+		CEDF85482036C93E006769A9 /* NetworkModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85492036CA14006769A9 /* KNNetworkModel.h */,
+				CEDF854A2036CA14006769A9 /* KNNetworkModel.m */,
+			);
+			path = NetworkModel;
+			sourceTree = "<group>";
+		};
+		CEDF85522036F167006769A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8659203DBE6B006769A9 /* TabBarController */,
+				436A94E6203E3F9000308AD0 /* FileBox */,
+				CEDF8674203EC6FE006769A9 /* Setting */,
+				CEDF85672036F35D006769A9 /* GlobalOfLocal */,
+				CEDF85562036F1D1006769A9 /* Recent */,
+				CEDF856C2036F7FF006769A9 /* LectureList */,
+				CEDF85AE20375670006769A9 /* Detail */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEDF85562036F1D1006769A9 /* Recent */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF857F203707F2006769A9 /* Model */,
+				CEDF85592036F213006769A9 /* Adapter */,
+				CEDF85582036F20E006769A9 /* View */,
+				CEDF85572036F208006769A9 /* ViewController */,
+			);
+			path = Recent;
+			sourceTree = "<group>";
+		};
+		CEDF85572036F208006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF855E2036F26A006769A9 /* KNRecentNaviContorller.h */,
+				CEDF855F2036F26A006769A9 /* KNRecentNaviContorller.m */,
+				CEDF855B2036F230006769A9 /* KNRecentViewController.h */,
+				CEDF855C2036F230006769A9 /* KNRecentViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF85582036F20E006769A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85612036F2C2006769A9 /* KNRecentTableView.h */,
+				CEDF85622036F2C2006769A9 /* KNRecentTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF85592036F213006769A9 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85642036F2DC006769A9 /* KNRecentTableViewAdapter.h */,
+				CEDF85652036F2DC006769A9 /* KNRecentTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CEDF85672036F35D006769A9 /* GlobalOfLocal */ = {
+			isa = PBXGroup;
+			children = (
+				4342A392203F970300080313 /* View */,
+				CEDF857A2036FE01006769A9 /* Model */,
+				CEDF856B2036F397006769A9 /* CustomCell */,
+			);
+			path = GlobalOfLocal;
+			sourceTree = "<group>";
+		};
+		CEDF856B2036F397006769A9 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85682036F389006769A9 /* KNPublicCustomTableViewCell.h */,
+				CEDF85692036F389006769A9 /* KNPublicCustomTableViewCell.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		CEDF856C2036F7FF006769A9 /* LectureList */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF859720374EEB006769A9 /* Model */,
+				CEDF859D20374F89006769A9 /* Adapter */,
+				CEDF856E2036F80E006769A9 /* View */,
+				CEDF856D2036F806006769A9 /* ViewController */,
+				CEDF85DA203815DF006769A9 /* ALecture */,
+			);
+			path = LectureList;
+			sourceTree = "<group>";
+		};
+		CEDF856D2036F806006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85D6203815D4006769A9 /* KNLectureListNaviController.h */,
+				CEDF85D5203815D4006769A9 /* KNLectureListNaviController.m */,
+				CEDF85D4203815D4006769A9 /* KNLectureListViewController.h */,
+				CEDF85D7203815D4006769A9 /* KNLectureListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF856E2036F80E006769A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85D1203815BF006769A9 /* KNLectureListTableView.h */,
+				CEDF85D2203815BF006769A9 /* KNLectureListTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF857A2036FE01006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85BA20375783006769A9 /* DataModel */,
+				CEDF857B2036FE0D006769A9 /* TaskModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF857B2036FE0D006769A9 /* TaskModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF857C2036FE5F006769A9 /* KNHomeManager.h */,
+				CEDF857D2036FE5F006769A9 /* KNHomeManager.m */,
+			);
+			path = TaskModel;
+			sourceTree = "<group>";
+		};
+		CEDF857F203707F2006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8580203707FC006769A9 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF8580203707FC006769A9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF858320370815006769A9 /* Notice */,
+				CEDF858220370811006769A9 /* Note */,
+				CEDF858120370806006769A9 /* Homework */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CEDF858120370806006769A9 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF859120372B09006769A9 /* KNHomeworkModel.h */,
+				CEDF859220372B09006769A9 /* KNHomeworkModel.m */,
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		CEDF858220370811006769A9 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF858C2037217E006769A9 /* KNNoteModel.h */,
+				CEDF858D2037217E006769A9 /* KNNoteModel.m */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		CEDF858320370815006769A9 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8584203708B9006769A9 /* KNNoticeModel.h */,
+				CEDF8585203708B9006769A9 /* KNNoticeModel.m */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		CEDF858820370954006769A9 /* XmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF858920370A5A006769A9 /* KNXmlParser.h */,
+				CEDF858A20370A5A006769A9 /* KNXmlParser.m */,
+			);
+			path = XmlParser;
+			sourceTree = "<group>";
+		};
+		CEDF859720374EEB006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF859820374EF1006769A9 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF859820374EF1006769A9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF859920374EFE006769A9 /* LectureList */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CEDF859920374EFE006769A9 /* LectureList */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85CC20381597006769A9 /* KNLectureListModel.h */,
+				CEDF85CB20381597006769A9 /* KNLectureListModel.m */,
+			);
+			path = LectureList;
+			sourceTree = "<group>";
+		};
+		CEDF859D20374F89006769A9 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85CE203815AD006769A9 /* KNLectureListTableViewAdapter.h */,
+				CEDF85CF203815AD006769A9 /* KNLectureListTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CEDF85AA20375061006769A9 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85AC2037508C006769A9 /* KNIndicator.h */,
+				CEDF85AB2037508C006769A9 /* KNIndicator.m */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		CEDF85AE20375670006769A9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85C120375CAE006769A9 /* GlobalOfLocal */,
+				CEDF85B120375692006769A9 /* Notice */,
+				CEDF85B02037568F006769A9 /* Note */,
+				CEDF85AF20375683006769A9 /* Homework */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CEDF85AF20375683006769A9 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86062038302F006769A9 /* ViewController */,
+			);
+			path = Homework;
+			sourceTree = "<group>";
+		};
+		CEDF85B02037568F006769A9 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85FE20382318006769A9 /* Model */,
+				CEDF85FD20382310006769A9 /* ViewController */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		CEDF85B120375692006769A9 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85B5203756B7006769A9 /* Model */,
+				CEDF85B2203756A4006769A9 /* ViewController */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		CEDF85B2203756A4006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85BE20375B85006769A9 /* KNNoticeDetailViewController.h */,
+				CEDF85BF20375B85006769A9 /* KNNoticeDetailViewController.m */,
+				CEDF865D203DBF83006769A9 /* KNNoticeDetailNaviController.h */,
+				CEDF865E203DBF83006769A9 /* KNNoticeDetailNaviController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF85B5203756B7006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85B6203756BB006769A9 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF85B6203756BB006769A9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85B7203756D9006769A9 /* KNNoticeDetailModel.h */,
+				CEDF85B8203756D9006769A9 /* KNNoticeDetailModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CEDF85BA20375783006769A9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF859420372F44006769A9 /* KNParentHomeModel.h */,
+				CEDF859520372F44006769A9 /* KNParentHomeModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CEDF85C120375CAE006769A9 /* GlobalOfLocal */ = {
+			isa = PBXGroup;
+			children = (
+				4373932020394A910037ED71 /* FileList */,
+				CEDF85C320375CC0006769A9 /* View */,
+			);
+			path = GlobalOfLocal;
+			sourceTree = "<group>";
+		};
+		CEDF85C320375CC0006769A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85C520375D59006769A9 /* KNDetailCustomView.h */,
+				CEDF85C620375D59006769A9 /* KNDetailCustomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF85DA203815DF006769A9 /* ALecture */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86A920510D05006769A9 /* Model */,
+				CEDF85DD203815F9006769A9 /* Adapter */,
+				CEDF85DC203815F4006769A9 /* View */,
+				CEDF85DB203815EC006769A9 /* ViewController */,
+			);
+			path = ALecture;
+			sourceTree = "<group>";
+		};
+		CEDF85DB203815EC006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8670203DCC6E006769A9 /* TabBarController */,
+				CEDF85E62038163C006769A9 /* ALectureNotice */,
+				CEDF85E520381635006769A9 /* ALectureNote */,
+				CEDF85E420381624006769A9 /* ALectureHomework */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF85DC203815F4006769A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85E220381618006769A9 /* KNALectureTableView.h */,
+				CEDF85E120381618006769A9 /* KNALectureTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF85DD203815F9006769A9 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85DF2038160A006769A9 /* KNALectureTableViewAdapter.h */,
+				CEDF85DE2038160A006769A9 /* KNALectureTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CEDF85E420381624006769A9 /* ALectureHomework */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85ED20381678006769A9 /* KNALectureHomeworkViewController.h */,
+				CEDF85EE20381678006769A9 /* KNALectureHomeworkViewController.m */,
+				CEDF866C203DC0BE006769A9 /* KNALectureHomeworkNaviController.h */,
+				CEDF866D203DC0BE006769A9 /* KNALectureHomeworkNaviController.m */,
+			);
+			path = ALectureHomework;
+			sourceTree = "<group>";
+		};
+		CEDF85E520381635006769A9 /* ALectureNote */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85F320381681006769A9 /* KNALectureNoteViewController.h */,
+				CEDF85F420381681006769A9 /* KNALectureNoteViewController.m */,
+				CEDF8669203DC0AD006769A9 /* KNALectureNoteNaviController.h */,
+				CEDF866A203DC0AD006769A9 /* KNALectureNoteNaviController.m */,
+			);
+			path = ALectureNote;
+			sourceTree = "<group>";
+		};
+		CEDF85E62038163C006769A9 /* ALectureNotice */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85E82038166B006769A9 /* KNALectureNoticeViewController.h */,
+				CEDF85EA2038166B006769A9 /* KNALectureNoticeViewController.m */,
+				CEDF8666203DC09C006769A9 /* KNALectureNoticeNaviController.h */,
+				CEDF8667203DC09C006769A9 /* KNALectureNoticeNaviController.m */,
+			);
+			path = ALectureNotice;
+			sourceTree = "<group>";
+		};
+		CEDF85FD20382310006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF860320382462006769A9 /* KNNoteDetailViewController.h */,
+				CEDF860420382462006769A9 /* KNNoteDetailViewController.m */,
+				CEDF8660203DBFA2006769A9 /* KNNoteDetailNaviController.h */,
+				CEDF8661203DBFA2006769A9 /* KNNoteDetailNaviController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF85FE20382318006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF85FF2038231B006769A9 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF85FF2038231B006769A9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86002038232D006769A9 /* KNNoteDetailModel.h */,
+				CEDF86012038232D006769A9 /* KNNoteDetailModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CEDF86062038302F006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF860C20383057006769A9 /* KNHomeworkDetailViewController.h */,
+				CEDF860D20383057006769A9 /* KNHomeworkDetailViewController.m */,
+				CEDF8663203DBFB6006769A9 /* KNHomeworkDetailNaviController.h */,
+				CEDF8664203DBFB6006769A9 /* KNHomeworkDetailNaviController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF86362039F6C2006769A9 /* LogoView */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF864A2039FC18006769A9 /* KNLogoView.h */,
+				CEDF864B2039FC18006769A9 /* KNLogoView.m */,
+			);
+			path = LogoView;
+			sourceTree = "<group>";
+		};
+		CEDF86372039F6C8006769A9 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86472039FC04006769A9 /* KNLoginInfoView.h */,
+				CEDF86482039FC04006769A9 /* KNLoginInfoView.m */,
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		CEDF8655203DBBC4006769A9 /* ResizeImage */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8656203DBC6A006769A9 /* KNImageManager.h */,
+				CEDF8657203DBC6A006769A9 /* KNImageManager.m */,
+			);
+			path = ResizeImage;
+			sourceTree = "<group>";
+		};
+		CEDF8659203DBE6B006769A9 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				437392BB2036D5E40037ED71 /* KNTabBarController.h */,
+				437392BC2036D5E50037ED71 /* KNTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		CEDF8670203DCC6E006769A9 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8671203DCC8F006769A9 /* KNALectureTabBarController.h */,
+				CEDF8672203DCC8F006769A9 /* KNALectureTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		CEDF8674203EC6FE006769A9 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF869420453424006769A9 /* Model */,
+				CEDF8677203EC71C006769A9 /* Adapter */,
+				CEDF8676203EC719006769A9 /* View */,
+				CEDF8675203EC712006769A9 /* ViewController */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CEDF8675203EC712006769A9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF8678203EC755006769A9 /* KNSettingViewController.h */,
+				CEDF8679203EC755006769A9 /* KNSettingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEDF8676203EC719006769A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF867B203EC793006769A9 /* KNSettingTableView.h */,
+				CEDF867C203EC793006769A9 /* KNSettingTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF8677203EC71C006769A9 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF867E203EC7B5006769A9 /* KNSettingTableViewAdapter.h */,
+				CEDF867F203EC7B5006769A9 /* KNSettingTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		CEDF868D203EF082006769A9 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF868E203EF0A1006769A9 /* KNKeychainManager.h */,
+				CEDF868F203EF0A1006769A9 /* KNKeychainManager.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		CEDF869420453424006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86952045342B006769A9 /* TaskModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF86952045342B006769A9 /* TaskModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86962045344A006769A9 /* KNSettingLogoutManager.h */,
+				CEDF86972045344A006769A9 /* KNSettingLogoutManager.m */,
+			);
+			path = TaskModel;
+			sourceTree = "<group>";
+		};
+		CEDF86A920510D05006769A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86AA20510D0F006769A9 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDF86AA20510D0F006769A9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF86AB20510D34006769A9 /* KNALectureModel.h */,
+				CEDF86AC20510D34006769A9 /* KNALectureModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CF4CBE6E8857EA4D8399B7B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FEC50143CCFF33AD2B72088 /* Pods-KNUEclass.debug.xcconfig */,
+				6AAEDBE9C9E46AE96B177D4F /* Pods-KNUEclass.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741653222036C6BE0058038D /* KNUEclass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741653392036C6BE0058038D /* Build configuration list for PBXNativeTarget "KNUEclass" */;
+			buildPhases = (
+				4E9CE0EB07AC0C350280DDDC /* [CP] Check Pods Manifest.lock */,
+				7416531F2036C6BE0058038D /* Sources */,
+				741653202036C6BE0058038D /* Frameworks */,
+				741653212036C6BE0058038D /* Resources */,
+				E59E6C24C9081B931A23BC21 /* [CP] Embed Pods Frameworks */,
+				4AD1E167651D83D422434167 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNUEclass;
+			productName = KNUEclass;
+			productReference = 741653232036C6BE0058038D /* KNUEclass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7416531B2036C6BE0058038D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nohkwon;
+				TargetAttributes = {
+					741653222036C6BE0058038D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7416531E2036C6BE0058038D /* Build configuration list for PBXProject "KNUEclass" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7416531A2036C6BE0058038D;
+			productRefGroup = 741653242036C6BE0058038D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741653222036C6BE0058038D /* KNUEclass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741653212036C6BE0058038D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF86912043E0A7006769A9 /* NanumSquareBold.ttf in Resources */,
+				CEDF86922043E0A7006769A9 /* NanumSquareRegular.ttf in Resources */,
+				CEDF86932043E0A7006769A9 /* NanumBarunGothicOTF-YetHangul.otf in Resources */,
+				CEDF864E2039FD99006769A9 /* Bevan.ttf in Resources */,
+				741653332036C6BE0058038D /* LaunchScreen.storyboard in Resources */,
+				741653302036C6BE0058038D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD1E167651D83D422434167 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNUEclass/Pods-KNUEclass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9CE0EB07AC0C350280DDDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KNUEclass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59E6C24C9081B931A23BC21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KNUEclass/Pods-KNUEclass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7416531F2036C6BE0058038D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436A94F1203E3FFC00308AD0 /* KNFileBoxTableView.m in Sources */,
+				437392C52036D5F80037ED71 /* KNParentTabBarController.m in Sources */,
+				436A94EE203E3FF300308AD0 /* KNFileBoxModel.m in Sources */,
+				CEDF8680203EC7B5006769A9 /* KNSettingTableViewAdapter.m in Sources */,
+				437392BD2036D5E50037ED71 /* KNTabBarController.m in Sources */,
+				CEDF858B20370A5A006769A9 /* KNXmlParser.m in Sources */,
+				CEDF8586203708B9006769A9 /* KNNoticeModel.m in Sources */,
+				4373933620394FB90037ED71 /* KNFileListTableViewAdapter.m in Sources */,
+				4373933220394FA00037ED71 /* KNFileListTableView.m in Sources */,
+				CEDF86AD20510D35006769A9 /* KNALectureModel.m in Sources */,
+				CEDF860E20383057006769A9 /* KNHomeworkDetailViewController.m in Sources */,
+				4373932F20394F690037ED71 /* KNFileListViewController.m in Sources */,
+				CEDF867A203EC755006769A9 /* KNSettingViewController.m in Sources */,
+				CEDF8665203DBFB6006769A9 /* KNHomeworkDetailNaviController.m in Sources */,
+				741653362036C6BE0058038D /* main.m in Sources */,
+				CEDF86022038232D006769A9 /* KNNoteDetailModel.m in Sources */,
+				CEDF85EC2038166B006769A9 /* KNALectureNoticeViewController.m in Sources */,
+				437392C42036D5F80037ED71 /* KNParentViewController.m in Sources */,
+				CEDF865F203DBF83006769A9 /* KNNoticeDetailNaviController.m in Sources */,
+				CEDF855D2036F230006769A9 /* KNRecentViewController.m in Sources */,
+				CEDF86982045344A006769A9 /* KNSettingLogoutManager.m in Sources */,
+				CEDF866B203DC0AD006769A9 /* KNALectureNoteNaviController.m in Sources */,
+				CEDF85B9203756D9006769A9 /* KNNoticeDetailModel.m in Sources */,
+				CEDF86492039FC04006769A9 /* KNLoginInfoView.m in Sources */,
+				4342A395203F972400080313 /* KNNoDataView.m in Sources */,
+				CEDF85CD20381597006769A9 /* KNLectureListModel.m in Sources */,
+				CEDF85F720381682006769A9 /* KNALectureNoteViewController.m in Sources */,
+				CEDF85E02038160B006769A9 /* KNALectureTableViewAdapter.m in Sources */,
+				437392B22036D4FF0037ED71 /* KNLoginManager.m in Sources */,
+				CEDF85D9203815D4006769A9 /* KNLectureListViewController.m in Sources */,
+				437392AF2036D4F50037ED71 /* KNUserModel.m in Sources */,
+				CEDF85D3203815BF006769A9 /* KNLectureListTableView.m in Sources */,
+				CEDF85C020375B85006769A9 /* KNNoticeDetailViewController.m in Sources */,
+				437392B82036D5100037ED71 /* KNLoginViewController.m in Sources */,
+				CEDF85602036F26A006769A9 /* KNRecentNaviContorller.m in Sources */,
+				CEDF866E203DC0BE006769A9 /* KNALectureHomeworkNaviController.m in Sources */,
+				CEDF860520382462006769A9 /* KNNoteDetailViewController.m in Sources */,
+				CEDF867D203EC793006769A9 /* KNSettingTableView.m in Sources */,
+				CEDF85AD2037508C006769A9 /* KNIndicator.m in Sources */,
+				436A94F4203E400700308AD0 /* KNFileBoxTableViewAdapter.m in Sources */,
+				4373931F2038397C0037ED71 /* KNFileStoreAndViewerModel.m in Sources */,
+				CEDF859620372F44006769A9 /* KNParentHomeModel.m in Sources */,
+				CEDF85D8203815D4006769A9 /* KNLectureListNaviController.m in Sources */,
+				CEDF85F120381678006769A9 /* KNALectureHomeworkViewController.m in Sources */,
+				CEDF85C720375D59006769A9 /* KNDetailCustomView.m in Sources */,
+				CEDF854B2036CA14006769A9 /* KNNetworkModel.m in Sources */,
+				4373933B203953550037ED71 /* KNFileListParamModel.m in Sources */,
+				CEDF857E2036FE5F006769A9 /* KNHomeManager.m in Sources */,
+				CEDF859320372B09006769A9 /* KNHomeworkModel.m in Sources */,
+				CEDF8690203EF0A1006769A9 /* KNKeychainManager.m in Sources */,
+				CEDF85E320381618006769A9 /* KNALectureTableView.m in Sources */,
+				CEDF8668203DC09C006769A9 /* KNALectureNoticeNaviController.m in Sources */,
+				436A94F7203E400E00308AD0 /* KNFileBoxViewController.m in Sources */,
+				CEDF8662203DBFA2006769A9 /* KNNoteDetailNaviController.m in Sources */,
+				CEDF85662036F2DC006769A9 /* KNRecentTableViewAdapter.m in Sources */,
+				CEDF8658203DBC6A006769A9 /* KNImageManager.m in Sources */,
+				CEDF8673203DCC8F006769A9 /* KNALectureTabBarController.m in Sources */,
+				437392B52036D5080037ED71 /* KNLoginCustomView.m in Sources */,
+				741653282036C6BE0058038D /* AppDelegate.m in Sources */,
+				437392C62036D5F80037ED71 /* KNParentNaviController.m in Sources */,
+				CEDF856A2036F389006769A9 /* KNPublicCustomTableViewCell.m in Sources */,
+				CEDF858E2037217E006769A9 /* KNNoteModel.m in Sources */,
+				4373933E203959260037ED71 /* KNFileListModel.m in Sources */,
+				CEDF864C2039FC18006769A9 /* KNLogoView.m in Sources */,
+				CEDF85D0203815AD006769A9 /* KNLectureListTableViewAdapter.m in Sources */,
+				CEDF85632036F2C2006769A9 /* KNRecentTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		741653312036C6BE0058038D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741653322036C6BE0058038D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741653372036C6BE0058038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		741653382036C6BE0058038D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7416533A2036C6BE0058038D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEC50143CCFF33AD2B72088 /* Pods-KNUEclass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32W5JEHP8L;
+				INFOPLIST_FILE = "$(SRCROOT)/KNUEclass/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.nohkwon.KNUEclass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7416533B2036C6BE0058038D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAEDBE9C9E46AE96B177D4F /* Pods-KNUEclass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32W5JEHP8L;
+				INFOPLIST_FILE = "$(SRCROOT)/KNUEclass/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.nohkwon.KNUEclass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7416531E2036C6BE0058038D /* Build configuration list for PBXProject "KNUEclass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741653372036C6BE0058038D /* Debug */,
+				741653382036C6BE0058038D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741653392036C6BE0058038D /* Build configuration list for PBXNativeTarget "KNUEclass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7416533A2036C6BE0058038D /* Debug */,
+				7416533B2036C6BE0058038D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7416531B2036C6BE0058038D /* Project object */;
+}
